@@ -1,0 +1,102 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.AllRestaurantPage"
+    android:id="@+id/rdfDrawerLayout"
+    >
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rdfCoordinatorLayout">
+
+
+
+
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rdfFrameLayout"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rdfRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/rdfGoTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/go_to_cart"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+
+</RelativeLayout>
+
+        </FrameLayout>
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:elevation="10dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/rdfToolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                tools:layout_editor_absoluteY="-17dp"
+                app:layout_scrollFlags="scroll|enterAlways">
+            </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/rdfMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/you_can_choose_from_the_following_menu_items"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/rdfToolBar"/>
+</RelativeLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:id="@+id/rdfNavigationView"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/drawer_layout"
+        app:menu="@menu/menu_drawer"
+        android:layout_gravity="start"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

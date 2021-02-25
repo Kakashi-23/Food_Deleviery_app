@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.OrderHistory"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/skyBlue">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_re_previous_order_are_listed_here"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/ohlisted"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ohlisted"
+        android:id="@+id/ohRecycler"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="fragments.FAQ"
+    android:background="@color/skyBlue"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/q_what_is_food_delivery_app"
+        android:padding="2dp"
+        android:id="@+id/txtq1"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:text="@string/a_we_provide_food_delivery_services_to_our_customers_from_your_favourite_restaurants_with_ease_and_convenience"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+
+        android:text="@string/q2"
+        android:id="@+id/q2"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:id="@+id/a2"
+
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ans2"/>
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+
+        android:text="@string/q_how_do_i_place_an_order"
+        android:id="@+id/q3"/>
+<TextView
+    android:textSize="15sp"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ans3"
+
+    android:layout_margin="5dp"
+    android:padding="2dp"
+    android:id="@+id/a3"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/q4"
+        android:text="@string/q4"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:text="@string/a4"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/q5"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:padding="2dp"
+        android:text="@string/q5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a5"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:text="@string/a5"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_can_pay_via"/>
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/debit_credit_card_mastercard_visa_rupay"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/internet_banking"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upi" />
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paytm_wallet"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cash_on_delivery"/>
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

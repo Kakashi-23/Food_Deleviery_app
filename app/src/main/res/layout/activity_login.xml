@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.Login"
+    >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginToolbar"
+            android:background="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/imgLoginlogo"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/loginToolbar"
+            />
+        <EditText
+            android:id="@+id/etloginMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:layout_below="@id/imgLoginlogo"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:hint="@string/enter_mobile_no"
+
+            />
+        <EditText
+            android:id="@+id/etloginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:layout_below="@+id/etloginMobileNo"
+            android:inputType="textPassword"
+            android:hint="@string/enter_password"
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:layout_below="@id/etloginPassword"
+            android:background="@color/black"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password"
+            android:background="@color/White"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:layout_below="@id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/loginForgotPassword"
+
+            />
+        <Button
+
+            android:id="@+id/loginregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:text="@string/new_user_register_here"
+            android:textSize="20sp"
+            android:background="@color/White"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="25dp"
+            android:padding="5dp"
+            />
+
+
+</RelativeLayout>

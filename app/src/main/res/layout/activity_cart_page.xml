@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.CartPage">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:id="@+id/cartPageToolbar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ordering_from"
+        android:textSize="18sp"
+        android:layout_below="@id/cartPageToolbar"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/cartPageOrdering"
+        />
+    <TextView
+        android:id="@+id/cartPageResName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/cartPageOrdering"
+        android:layout_below="@id/cartPageToolbar"
+        android:text="@string/item_name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="2dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartPageOrdering"
+        android:layout_marginTop="5dp"
+        android:id="@+id/cartPageRecycler"
+        />
+    <Button
+        android:id="@+id/cartPageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/proceed_to_pay"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

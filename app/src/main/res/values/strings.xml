@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Food Delivery App</string>
+    <string name="on_the_doorstep">On The DoorStep</string>
+    <string name="enter_password">enter password</string>
+    <string name="enter_mobile_no">Enter mobile no</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="Login_DAta">login data</string>
+
+    <string name="username">Username</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favorites">Favorites</string>
+    <string name="order_history">Order History</string>
+    <string name="faq">FAQ</string>
+    <string name="log_out">Log Out</string>
+    <string name="list_item">List Item</string>
+    <string name="name_of_restaurant">Name of Restaurant</string>
+    <string name="rs_299_00">Rs.299.00</string>
+    <string name="_4_5">4.5</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="closed_drawer">Closed Drawer</string>
+    <string name="sr_no">Sr.no</string>
+    <string name="item_name">Item name</string>
+    <string name="price">price</string>
+    <string name="add">ADD</string>
+    <string name="you_can_choose_from_the_following_menu_items">You can choose from the following menu items</string>
+    <string name="rs">Rs.</string>
+    <string name="_299_00">299_00</string>
+    <string name="go_to_cart">Go To cart</string>
+    <string name="ordering_from">Ordering From:-</string>
+    <string name="proceed_to_pay">Proceed To Pay(amount)</string>
+    <string name="payment_successful">Payment Successful</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">name</string>
+    <string name="you_re_previous_order_are_listed_here">You\'re Previous Order are Listed here</string>
+    <string name="date">date</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="next">Next</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="enter_name">Enter Name</string>
+
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="register">Register</string>
+    <string name="price_low_to_high">Price:Low to High</string>
+    <string name="price_high_to_low">Price:High to Low</string>
+    <string name="rating">Rating</string>
+    <string name="sorting">sorting</string>
+    <string name="q_what_is_food_delivery_app">Q- What is food delivery app ?</string>
+    <string name="a_we_provide_food_delivery_services_to_our_customers_from_your_favourite_restaurants_with_ease_and_convenience">A.We provide food delivery services to our customers from your favourite restaurants with ease and convenience</string>
+    <string name="q_how_do_i_place_an_order">Q-How do I place an order?</string>
+    <string name="ans3">A.Open the food delivery app and login with your username and password. You can create an account using your email id or password. Enter your address ( where you want the food to be delivered) in to the search box Now all the nearby restaurants open at current time will appear on you screen, pick the one that tickles your fancy. Select the food items and add to the cart. Once you think you\'ve built the perfect feast, select Pick Up or Delivery. Enter a Promo Code if you have any and click on proceed to pay Select any convenient payment method and make the payment . Once payment is successful, you\'ll receive a notification on your registered mobile no.</string>
+    <string name="ans2">Ans-When the order is placed, you\'ll be notified about the estimated time it\'ll take to reach at your doorstep ,which is mostly accurate, however there is no guarantee assured for the same</string>
+    <string name="q2">Q-Is there a guaranteed delivery time?</string>
+    <string name="q4">Q-Why i can\'t find my favourite restaurant ?</string>
+    <string name="a4">Ans-If you cannot find any specific restaurant on food delivery app, chances are they do not hold any partnership with us.</string>
+    <string name="q5">Q-What type of payments do the restaurants accept?</string>
+    <string name="a5">Ans-Basically every payment option is available on food delivery app-</string>
+    <string name="you_can_pay_via">You can pay via-</string>
+    <string name="debit_credit_card_mastercard_visa_rupay">●Debit/credit card (mastercard/visa/rupay)</string>
+    <string name="cash_on_delivery">●cash on delivery</string>
+    <string name="paytm_wallet">●paytm wallet</string>
+    <string name="upi">●upi</string>
+    <string name="internet_banking">●internet banking</string>
+</resources>
